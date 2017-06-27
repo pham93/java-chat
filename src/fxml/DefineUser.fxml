@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="100.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EnterUser">
+   <children>
+      <Button layoutX="130.0" layoutY="61.0" mnemonicParsing="false" onAction="#btnEnterUsername" text="Enter" />
+      <Label layoutX="109.0" layoutY="6.0" text="Enter username" />
+      <TextField fx:id="UsernameTextField" layoutX="41.0" layoutY="31.0" prefHeight="25.0" prefWidth="221.0" />
+   </children>
+</AnchorPane>
